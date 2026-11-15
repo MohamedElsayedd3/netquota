@@ -1,1 +1,251 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سياسة الخصوصية | Privacy Policy - NetQuota</title>
+    <style>
+        :root {
+            --primary: #0EA5E9;
+            --bg: #0F172A;
+            --card-bg: #1E293B;
+            --text-main: #F8FAFC;
+            --text-muted: #94A3B8;
+            --border: #334155;
+        }
 
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text-main);
+            line-height: 1.7;
+            padding: 30px 15px;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            border: 1px solid var(--border);
+        }
+
+        .lang-switch {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin-bottom: 30px;
+        }
+
+        .btn-lang {
+            background: #334155;
+            color: var(--text-main);
+            border: none;
+            padding: 8px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: 0.2s ease;
+        }
+
+        .btn-lang.active {
+            background: var(--primary);
+            color: #fff;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 35px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 28px;
+            color: var(--primary);
+            margin-bottom: 8px;
+        }
+
+        .last-update {
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        h2 {
+            font-size: 19px;
+            color: #38BDF8;
+            margin-top: 25px;
+            margin-bottom: 12px;
+        }
+
+        p, ul {
+            margin-bottom: 15px;
+            color: #CBD5E1;
+            font-size: 15px;
+        }
+
+        ul {
+            padding-right: 25px;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .en-section {
+            direction: ltr;
+            text-align: left;
+            display: none;
+        }
+
+        .ar-section {
+            direction: rtl;
+            text-align: right;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="lang-switch">
+        <button class="btn-lang active" onclick="switchLang('ar')">العربية</button>
+        <button class="btn-lang" onclick="switchLang('en')">English</button>
+    </div>
+
+    <!-- القسم العربي -->
+    <div id="ar" class="ar-section">
+        <header>
+            <h1>سياسة الخصوصية - NetQuota</h1>
+            <p class="last-update">آخر تحديث: 15 نوفمبر 2026</p>
+        </header>
+
+        <p>نحن في <strong>NetQuota</strong> نضع خصوصيتك في المقام الأول. تم تصميم هذا التطبيق ليعمل بمبدأ الخصوصية المطلقة، مع التأكيد على أن كافة بيانات استهلاكك للإنترنت وسجل شبكتك هي ملكك الخاص وتظل على جهازك فقط.</p>
+
+        <h2>1. جمع البيانات وتخزينها</h2>
+        <ul>
+            <li><strong>المعالجة المحلية الكاملة:</strong> كافة الإحصائيات (مثل استهلاك شبكة الهاتف، استهلاك الواي فاي، سرعة التحميل والرفع، واستهلاك كل تطبيق على حدة) يتم قراءتها ومعالجتها محلياً عبر واجهات برمجة النظام الرسمية لنظام Android داخل جهازك.</li>
+            <li><strong>عدم تخزين بيانات خارجية:</strong> لا نقوم مطلقاً برفع سجلات استهلاكك أو سجل التصفح أو تفاصيل نشاطك على الإنترنت لأي خوادم خارجية أو سحابية، ولا يتم بيعها أو مشاركتها مع أي جهة.</li>
+            <li><strong>تفضيلات المستخدم:</strong> تفضيلاتك داخل التطبيق (مثل المظهر، حجم الباقة الشهرية، واللغة) تُخزن محلياً فقط في الذاكرة الخاصة بالتطبيق على هاتفك.</li>
+        </ul>
+
+        <h2>2. الصلاحيات المطلوبة والغرض منها</h2>
+        <ul>
+            <li><strong>صلاحية الوصول للاستخدام (PACKAGE_USAGE_STATS):</strong> تُستخدم حصراً لقراءة حجم البيانات المستهلكة بواسطة كل تطبيق وعرضها لك في شاشة البيانات. هذه البيانات لا تغادر هاتفك أبداً.</li>
+            <li><strong>صلاحية الإشعارات (POST_NOTIFICATIONS):</strong> تُستخدم لإظهار الإشعار الثابت للسرعة اللحظية وتنبيهك عند اقتراب نفاد باقتك أو تجاوز الحد اليومي.</li>
+            <li><strong>صلاحية تشغيل الخدمة في الواجهة (FOREGROUND_SERVICE):</strong> لإبقاء مراقبة السرعة وحساب الاستهلاك بدقة في الخلفية.</li>
+        </ul>
+
+        <h2>3. خدمات الطرف الثالث (الإعلانات)</h2>
+        <p>يستخدم التطبيق شبكة <strong>Google AdMob</strong> لعرض الإعلانات (بانر وإعلانات بينية). قد تقوم Google بجمع ومعالجة بعض المعرفات غير الشخصية مثل:</p>
+        <ul>
+            <li>معرف الإعلانات الخاص بجهازك (Google Advertising ID).</li>
+            <li>عنوان IP وحالة الاتصال لغرض تحميل وتقديم الإعلانات المناسبة.</li>
+            <li>بيانات تشخيصية لتحسين أداء تسليم الإعلانات وحمايتها من الاحتيال.</li>
+        </ul>
+        <p>تخضع هذه العمليات لسياسة خصوصية Google، ويمكنك الاطلاع عليها عبر الرابط: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">سياسة خصوصية Google</a>.</p>
+
+        <h2>4. تحكم المستخدم وحذف البيانات</h2>
+        <p>لك كامل الحرية في إلغاء أي من الصلاحيات الممنوحة للتطبيق في أي وقت من خلال إعدادات جهازك. كما يمكنك حذف كافة البيانات والتفضيلات المخزنة محلياً ببساطة عن طريق مسح بيانات التطبيق أو إلغاء تثبيته.</p>
+
+        <h2>5. التواصل معنا</h2>
+        <p>إذا كان لديك أي استفسار حول سياسة الخصوصية، يمكنك التواصل معنا عبر: <a href="https://t.me/mohamedabdelfattah4" target="_blank">قناة الدعم على تيليجرام</a>.</p>
+    </div>
+
+    <!-- English Section -->
+    <div id="en" class="en-section">
+        <header>
+            <h1>Privacy Policy - NetQuota</h1>
+            <p class="last-update">Last updated: November 15, 2026</p>
+        </header>
+
+        <p>At <strong>NetQuota</strong>, your privacy is our top priority. The app is built with privacy-first architecture, ensuring that your network habits and data consumption remain completely private and on your device.</p>
+
+        <h2>1. Data Collection & Processing</h2>
+        <ul>
+            <li><strong>Local On-Device Processing:</strong> All data usage statistics, live network speed metrics, and per-app consumption details are fetched and computed directly on your device using Android system APIs.</li>
+            <li><strong>Zero Remote Uploads:</strong> None of your traffic logs, browsing history, or application usage details are ever uploaded to any external server, sold, or shared with third parties.</li>
+            <li><strong>Local Preferences:</strong> Your configured settings (such as plan quota, theme mode, and app language) are stored exclusively in your device's private app storage.</li>
+        </ul>
+
+        <h2>2. Permissions and Their Purpose</h2>
+        <ul>
+            <li><strong>Usage Access (PACKAGE_USAGE_STATS):</strong> Used strictly on your device to read how many bytes each application consumes. This data never leaves your phone.</li>
+            <li><strong>Notifications (POST_NOTIFICATIONS):</strong> Used solely to display the persistent live speed indicator and send alerts before your quota or daily limit runs out.</li>
+            <li><strong>Foreground Service (FOREGROUND_SERVICE):</strong> Required to keep live network speed and data calculations accurate in the background.</li>
+        </ul>
+
+        <h2>3. Third-Party Services (Advertising)</h2>
+        <p>NetQuota uses <strong>Google AdMob</strong> to display banner and interstitial ads. Google AdMob may collect and process certain non-personal identifiers, such as:</p>
+        <ul>
+            <li>Google Advertising ID (GAID).</li>
+            <li>IP address and general network connection state to load and deliver advertisements.</li>
+            <li>Diagnostic metrics to prevent fraudulent impressions.</li>
+        </ul>
+        <p>For more details on how Google processes data, please visit: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy & Terms</a>.</p>
+
+        <h2>4. User Rights & Data Deletion</h2>
+        <p>You have full control over the app's permissions and can revoke them at any time via your device settings. You can also wipe all local settings by clearing the app data or uninstalling the app.</p>
+
+        <h2>5. Contact Us</h2>
+        <p>If you have any questions regarding this Privacy Policy, feel free to contact us via our <a href="https://t.me/mohamedabdelfattah4" target="_blank">Telegram Support Channel</a>.</p>
+    </div>
+
+    <footer>
+        &copy; 2026 NetQuota. All rights reserved.
+    </footer>
+</div>
+
+<script>
+    function switchLang(lang) {
+        const ar = document.getElementById('ar');
+        const en = document.getElementById('en');
+        const btns = document.querySelectorAll('.btn-lang');
+
+        if (lang === 'ar') {
+            ar.style.display = 'block';
+            en.style.display = 'none';
+            document.documentElement.dir = 'rtl';
+            document.documentElement.lang = 'ar';
+            btns[0].classList.add('active');
+            btns[1].classList.remove('active');
+        } else {
+            ar.style.display = 'none';
+            en.style.display = 'block';
+            document.documentElement.dir = 'ltr';
+            document.documentElement.lang = 'en';
+            btns[1].classList.add('active');
+            btns[0].classList.remove('active');
+        }
+    }
+</script>
+
+</body>
+</html>
